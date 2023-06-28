@@ -1,3 +1,59 @@
+# Example-MACHN-Hackathon Project
+
+Climate Positive dApp for offsetting carbon credits!
+
+## Team
+
+- Laura
+  - Deployment, Frontend
+  - GitHub: @Laurazig
+  - Discord: @lauraleipzig
+- Lukas
+  - Deployment, Frontend
+  - GitHub: @Flashness123
+  - Discord: @_Resi_#1715
+- Lasse
+  - Deployment, Frontend
+  - GitHub: @lassrie
+  - Discord: @
+- Niko
+  - Deployment, Frontend
+  - GitHub: @Nikonovas
+  - Discord: @nikko5870
+- Felix
+  - Deployment, Frontend
+  - GitHub: @felixfoertsch
+  - Discord: @goodkat23
+
+## Video
+
+
+
+## Slideshow
+
+
+
+## Address of Deployed contract
+
+0xabc......
+
+## Problem
+
+
+
+## Solution
+
+
+
+## TechStack used
+
+- Next.JS
+- Supabase
+- Solidity
+
+## How to continue
+
+
 # Supabase Starter
 
 This starter configures Supabase Auth to use cookies, making the user's session available throughout the entire Next.js app - Client Components, Server Components, Route Handlers, Server Actions and Middleware.
