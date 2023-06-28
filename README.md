@@ -9,19 +9,19 @@ Climate Positive dApp for offsetting carbon credits!
   - GitHub: @Laurazig
   - Discord: @lauraleipzig
 - Lukas
-  - Deployment, Frontend
+  - Frontend
   - GitHub: @Flashness123
   - Discord: @_Resi_#1715
 - Lasse
-  - Deployment, Frontend
+  - Web 3.0/Solidity Smart Contract, Frontend
   - GitHub: @lassrie
   - Discord: @
 - Niko
-  - Deployment, Frontend
+  - Frontend
   - GitHub: @Nikonovas
   - Discord: @nikko5870
 - Felix
-  - Deployment, Frontend
+  - Product/Project Management
   - GitHub: @felixfoertsch
   - Discord: @goodkat23
 
@@ -31,11 +31,12 @@ Climate Positive dApp for offsetting carbon credits!
 
 ## Slideshow
 
-
+- https://github.com/stake-for-good/machn-festival/blob/main/presentation.md
+- Built with [Marp](https://marp.app)
 
 ## Address of Deployed contract
 
-0xabc......
+
 
 ## Problem
 
