@@ -15,10 +15,23 @@ contract StakeForGood{
         mapping(bytes32 => uint256) stakedPerInitiative;
     }
 
-    mapping(address => User) public users;
+    address public owner;
+    User[] public users;
 
     mapping(bytes32 => Initiative) public initiatives;
     bytes32[] public initiativeNames;
+
+    constructor (bytes32[] memory newInitiativeNames){
+        owner = msg.sender;
+
+        for(uint256 i = 0; i < newInitiativeNames.length; i++){
+            initiatives[newInitiativeNames[i]].name = newInitiativeNames[i];
+            initiatives[newInitiativeNames[i]].owner = msg.sender;
+            initiatives[newInitiativeNames[i]].totalStaked = 0;
+            intitatives[newInitiativeNames[i]].interestCollected = 0;
+            initiativeNames.push(newInitiativeNames[i]);
+        }
+    }
 
     function getInitiativeNames() public view returns(bytes32[] memory){
         return initiativeNames;
@@ -30,6 +43,22 @@ contract StakeForGood{
 
      function getInitiativeOwner(bytes32 _initiativeName) public view returns(address){
         return initiatives[_initiativeName].owner;
+    }
+
+    function getUser(address _userAddress) public view returns(User memory){
+        return users[_userAddress];
+    }
+
+    function increaseInterestCollected(bytes32 _initiativeName, uint256 _amount) public payable{
+        require(owner == msg.sender, "You are not the owner of this smart contract");
+        initiatives[_initiativeName].interestCollected += msg.value;
+    }
+
+    function collectInterestCollected(bytes32 _initiativeName) public payable{
+        require(initiatives[_initiativeName].owner == msg.sender, "You are not the owner of this initiative");
+        uint256 amount = initiatives[_initiativeName].interestCollected;
+        initiatives[_initiativeName].interestCollected = 0;
+        payable(msg.sender).transfer(amount);
     }
 
     function createInitiative(bytes32 _initiativeName) public{
