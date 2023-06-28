@@ -73,7 +73,6 @@ The Vercel deployment will guide you through creating a Supabase account and pro
 1. Run `npm install` to install dependencies
 1. Rename `.env.local.example` to `.env.local` and update the values for `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_ANON_KEY` from [your Supabase project's API settings](https://app.supabase.com/project/_/settings/api)
 1. Run `npm run dev` to start the local development server
-
 > Check out [the docs for Local Development](https://supabase.com/docs/guides/getting-started/local-development) to also run Supabase locally.
 
 ### Create a Supabase client
