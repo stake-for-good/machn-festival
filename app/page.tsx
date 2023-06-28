@@ -63,89 +63,11 @@ export default async function Index() {
             </Link>
           )}
         </span>
-      </div>
-
-      <div className="flex gap-8 justify-center mt-12">
-        <Image
-          src="/supabase.svg"
-          alt="Supabase Logo"
-          width={225}
-          height={45}
-          priority
-        />
-        <div className="border-l rotate-45 h-10"></div>
-        <Image
-          src="/next.svg"
-          alt="Vercel Logo"
-          width={150}
-          height={36}
-          priority
-        />
-      </div>
-
-      <p className="text-3xl mx-auto max-w-2xl text-center mt-8 text-white">
-        The fastest way to get started building apps with{' '}
-        <strong>Supabase</strong> and <strong>Next.js</strong>
-      </p>
-
-      <div className="flex justify-center mt-16">
-        <span className="bg-neutral-100 py-3 px-6 rounded-lg font-mono text-sm text-neutral-900">
-          Get started by editing <strong>app/page.tsx</strong>
-        </span>
-      </div>
-
-      <p className="text-neutral-100 mt-28 text-lg font-bold text-center">
-        Everything you need to started
-      </p>
-
-      <div className="flex gap-12 h-60 mt-10 mb-16 -mx-12">
-        {resources.map(({ title, subtitle, url, icon }) => (
-          <a
-            key={title}
-            className="grid gap-4 border-t-2 border-neutral-200 py-6 pr-2 group text-neutral-100"
-            href={url}
-          >
-            <h2 className="font-bold mb-2 group-hover:underline min-h-[42px]">
-              {title}
-            </h2>
-            <p className="text-sm text-neutral-100">{subtitle}</p>
-            <div className="mt-2">
-              <Image
-                src={`/${icon}.svg`}
-                alt="Vercel Logo"
-                width={20}
-                height={25}
-                priority
-              />
-            </div>
-          </a>
-        ))}
-      </div>
-
-      <div className="grid gap-3 justify-center mx-auto max-w-lg text-center mt-16">
-        <p className="text-neutral-100 text-lg font-bold text-center">
-          Examples
-        </p>
-        <p className="mb-2 text-white">
-          Look in the <code>_examples</code> folder to see how to create a
-          Supabase client in all the different contexts
-        </p>
-      </div>
-
-      <div className=" text-white mb-24 grid justify-center border-t mt-8">
-        {examples.map(({ type, src }) => (
-          <div className="" key={type}>
-            <div className="grid grid-cols-2 gap-4 border-b">
-              <span className="font-bold text-right border-r pr-4 py-4">
-                {type}{' '}
-              </span>
-              <span className="py-4">
-                <code className="text-sm">{src}</code>
-              </span>
-            </div>
-          </div>
-        ))}
+        
       </div>
     </div>
+
+    
   )
-}
+          }
+      
