@@ -14,7 +14,7 @@ Invest & Help
   - Discord: @_Resi_#1715
 - Lasse
   - Web 3.0/Solidity Smart Contract, Frontend
-  - GitHub: @lassrie
+  - GitHub: @lasrie
   - Discord: @
 - Niko
   - Frontend
