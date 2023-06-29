@@ -11,19 +11,21 @@ theme: gaia
 
 ---
 
-// Problems
+// Problem
 
-## Non-profit organizations work best, if they have a reliable income stream: paying for projects, workers, etc.
+## Like regular companies, non-profit organizations have to pay salaries, expenses, etc.
 
-## Donations are a money transfer, not an investment.
+## Many rely on donations. Donations are a money transfer, not an investment.
+
+## Donating conflicts with the individuals wish for personal financial gain.
 
 ---
 
 // Solution
 
-## Staking is a crypto **investment** that generates **reliable** interest.
+## Staking is a crypto **investment** that generates **reliable interest**.
 
-## Making this reliable incoming stream available to non-profit organizations solves their problem.
+## Our idea is simple: Make this reliable interest stream available to non-profit organizations!
 
 ## A match made in Heaven! 🌈🌤️
 
@@ -33,32 +35,33 @@ theme: gaia
 
 ## Today, many people know about Web 3.0 because of the NFT and crypto craze.
 
-## But still don't know how to access it.
+## But they still don't know how to access it.
 
 ---
 
 // Competition
 
+## GoodDollar
+
 ---
 
 // Product
 
-## Our solutions enables people to easily invest into Ethereum.
+## Enable people to easily invest into ETH.
 
-## It uses the incentive of **personal financial gain** to provide non-profit organizations with a reliable income stream.
-
----
-
-// Why should an investor use our product?
-
-## To have a **classical** ETH investment: participate in the gains and losses of the Ethereum price development.
-
-## To do some good by donating your staking interest.
+## Use the incentive of **personal financial gain** to provide non-profit organizations with a reliable income stream.
 
 ---
-// Why should a non-profit sign up?
 
-## To gain **reliable** payouts.
+// Investor Benefit
+
+## To invest in ETH.
+
+## To do good by donating your staking interest.
+
+// Non-Profit Benefit
+
+## To get reliable payouts.
 
 ## To market your organization.
 
