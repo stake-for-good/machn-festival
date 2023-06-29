@@ -3,6 +3,8 @@ import { cookies } from 'next/headers'
 import Image from 'next/image'
 import Link from 'next/link'
 import LogoutButton from './logout-button'
+import { useRouter } from 'next/navigation'
+
 
 const resources = [
   {
@@ -46,15 +48,15 @@ export default async function Index() {
 
   return (
     <div className="flex-1 flex flex-col max-w-3xl mt-24">
-      <h1 className="text-2xl mb-2 flex justify-between">
+      <h1 className="text-2xl flex justify-between">
         <span className="sr-only">Supabase and Next.js Starter Template</span>
       </h1>
 
-      <div className="flex border-b py-3 text-sm text-neutral-100">
+      <div className="text-sm text-neutral-100">
         <span className="ml-auto">
           {user ? (
-            <span className="flex gap-4">
-              Hey, {user.email}! <span className="border-r"></span>{' '}
+            <span>
+              Hey, {user.email}! {' '}
               <LogoutButton />
             </span>
           ) : (
